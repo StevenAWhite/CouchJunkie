@@ -1,0 +1,33 @@
+[package]
+name = "couchjunkie"
+version = "0.1.0"
+authors = ["Ignitus Boyone <IgnitusBoyone@gmail.com"]
+publish = false
+license = "MIT OR Apache-2.0"
+description = "Metadata parser for media files."
+readme = "README.md"
+documentation = "http://sureal.cc/couchjunkie"
+repository = "https://svn.sureal.cc/svn/couchjunkie/"
+keywords = ["media", "television"]
+
+[[bin]]
+name = "couchjunckie"
+path = "src/main.rs"
+
+[dependencies]
+time = "*"
+regex = "*"
+clap = "*"
+dotenv = "*"
+diesel = { version = "*", features = ["mysql"] }
+diesel_codegen = { version = "*", features = ["mysql"] }
+
+[dev-dependencies]
+difference = "1.0"
+tempdir = "0.3.4"
+regex = "0.1.48"
+url = { version = "1.4.0" }
+
+# [features]
+# default = ["mysql"]
+# mysql = ["sql/mysql"]

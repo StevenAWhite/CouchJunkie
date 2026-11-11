@@ -1,0 +1,60 @@
+# Editors / IDEs
+*.sublime-workspace
+.vscode/
+.idea/
+.vs/
+*.suo
+*.user
+*.swp
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# CMake / build output
+build*/
+out/
+cmake-build-*/
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+CTestTestfile.cmake
+Testing/
+compile_commands.json
+
+# C++ artifacts
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dll
+*.dylib
+*.exe
+*.pdb
+*.ilk
+*.exp
+
+# Rust (binary crate: Cargo.lock is intentionally tracked)
+target/
+
+# Go
+*.test
+*.out
+vendor/
+
+# Python virtualenv
+env/
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# Logs / temp
+*.log
+*.tmp
+
+# Legacy SVN
+.svn/
